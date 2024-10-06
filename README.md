@@ -4,6 +4,8 @@
 ![Contributors](https://img.shields.io/github/contributors/yourusername/awesome-computational-design)
 ![Stars](https://img.shields.io/github/stars/yourusername/awesome-computational-design?style=social)
 
+<img src="cover.png" alt="cover" width="400"/>
+
 A curated list of awesome open-source tools for computational engineering, data-driven design, scriptable tools, cyber-physical design, and computational science. This repository aims to provide engineers, designers, and researchers with the best resources to enhance their computational projects.
 
 ## Table of Contents
