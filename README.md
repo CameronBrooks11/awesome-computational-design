@@ -1,8 +1,7 @@
 # Awesome Computational Design
 
-![License](https://img.shields.io/github/license/yourusername/awesome-computational-design)
-![Contributors](https://img.shields.io/github/contributors/yourusername/awesome-computational-design)
-![Stars](https://img.shields.io/github/stars/yourusername/awesome-computational-design?style=social)
+![License](https://img.shields.io/github/license/CameronBrooks11/awesome-computational-design)
+![Stars](https://img.shields.io/github/stars/CameronBrooks11/awesome-computational-design?style=social)
 
 <img src="cover.png" alt="cover" width="400"/>
 
