@@ -25,6 +25,7 @@ Welcome to the **Awesome Computational Design** repository! This list is intende
 ## Tools
 
 - [Antmicro EMC](https://github.com/antmicro/gerber2ems)
+- [animony](https://github.com/mkeeter/antimony)
 - [Blender Nodes](https://docs.blender.org/manual/en/latest/interface/controls/nodes/index.html)
 - [Build123d](https://github.com/gumyr/build123d)
 - [CadQuery](https://github.com/CadQuery/cadquery)
@@ -35,6 +36,8 @@ Welcome to the **Awesome Computational Design** repository! This list is intende
 - [Gmsh](https://github.com/sasobadovinac/gmsh)
 - [PolymorphicBlocks](https://github.com/BerkeleyHCI/PolymorphicBlocks)
 - [Implicitcad](https://github.com/Haskell-Things/ImplicitCAD)
+- [OpenJSCAD](https://github.com/jscad/OpenJSCAD.org)
+  - _previously known as OpenJSCAD_
 - [MOOSE Framework](https://github.com/idaholab/moose)
 - [OpenEMS](https://github.com/thliebig/openEMS-Project/)
 - [OpenFOAM](https://github.com/OpenFOAM)
