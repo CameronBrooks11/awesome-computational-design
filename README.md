@@ -14,6 +14,7 @@ A curated list of awesome open-source tools for computational engineering, data-
   - [Introduction](#introduction)
   - [Tools](#tools)
   - [Contributing](#contributing)
+    - [Local Testing](#local-testing)
   - [Guidelines](#guidelines)
   - [License](#license)
   - [Acknowledgements](#acknowledgements)
@@ -36,7 +37,7 @@ Welcome to the **Awesome Computational Design** repository! This list is intende
 - [Gmsh](https://github.com/sasobadovinac/gmsh)
 - [PolymorphicBlocks](https://github.com/BerkeleyHCI/PolymorphicBlocks)
 - [Implicitcad](https://github.com/Haskell-Things/ImplicitCAD)
-- [OpenJSCAD](https://github.com/jscad/OpenJSCAD.org)
+- [JSCAD](https://github.com/jscad/OpenJSCAD.org)
   - _previously known as OpenJSCAD_
 - [MOOSE Framework](https://github.com/idaholab/moose)
 - [OpenEMS](https://github.com/thliebig/openEMS-Project/)
@@ -61,6 +62,16 @@ Welcome to the **Awesome Computational Design** repository! This list is intende
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 You are welcome to fork the repository and add new tools and submit a pull request or open an issue detailing what you'd like to be added and why it fits the criteria.
+
+### Local Testing
+
+From your repo root run:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open http://localhost:8000 in your browser.
 
 ## Guidelines
 
