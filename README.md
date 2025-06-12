@@ -70,7 +70,7 @@ Be Consistent: Follow the existing formatting and organizational structure.
 
 ## License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the AGPL v3 License. See [LICENSE](./LICENSE) for more information.
 
 ## Acknowledgements
 
