@@ -14,8 +14,14 @@ defaults:
     values:
       layout: default
 
-# kramdown generates heading ids, which is what the table of contents
-# links depend on.
+# Supplying a kramdown block replaces GitHub Pages' defaults wholesale, so
+# these restate them. input: GFM is the important one — without it the stock
+# kramdown parser neither honours GitHub's backslash escapes nor autolinks
+# bare URLs, and the rendered page drifts from what github.com shows.
+# hard_wrap stays false so single newlines do not become line breaks.
 markdown: kramdown
 kramdown:
+  input: GFM
+  hard_wrap: false
+  gfm_quirks: paragraph_end
   auto_ids: true

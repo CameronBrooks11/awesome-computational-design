@@ -7,20 +7,20 @@
 
 A curated list of awesome open-source tools for computational engineering, data-driven design, scriptable tools, cyber-physical design, and computational science. This repository aims to provide engineers, designers, and researchers with the best resources to enhance their computational projects.
 
-> _Viewable at https://cameronbrooks11.github.io/awesome-computational-design/_
+> _Viewable at <https://cameronbrooks11.github.io/awesome-computational-design/>_
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Tools](#tools)
-  - [Parametric \& scripted CAD](#parametric--scripted-cad)
-  - [Implicit \& volumetric modelling](#implicit--volumetric-modelling)
-  - [Geometry \& meshing](#geometry--meshing)
-  - [Simulation \& multiphysics](#simulation--multiphysics)
-  - [Systems \& process modelling](#systems--process-modelling)
-  - [Electronics \& PCB design](#electronics--pcb-design)
+  - [Parametric & scripted CAD](#parametric--scripted-cad)
+  - [Implicit & volumetric modelling](#implicit--volumetric-modelling)
+  - [Geometry & meshing](#geometry--meshing)
+  - [Simulation & multiphysics](#simulation--multiphysics)
+  - [Systems & process modelling](#systems--process-modelling)
+  - [Electronics & PCB design](#electronics--pcb-design)
   - [Optimization](#optimization)
-  - [Visualization \& mesh analysis](#visualization--mesh-analysis)
+  - [Visualization & mesh analysis](#visualization--mesh-analysis)
   - [Domain-specific](#domain-specific)
 - [Contributing](#contributing)
 - [Guidelines](#guidelines)
