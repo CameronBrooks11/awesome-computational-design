@@ -1,9 +1,9 @@
 # Awesome Computational Design
 
-![License](https://img.shields.io/github/license/CameronBrooks11/awesome-computational-design)
-![Stars](https://img.shields.io/github/stars/CameronBrooks11/awesome-computational-design?style=social)
-
-<img src="cover.png" alt="cover" width="250"/>
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License](https://img.shields.io/github/license/CameronBrooks11/awesome-computational-design)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/CameronBrooks11/awesome-computational-design)](https://github.com/CameronBrooks11/awesome-computational-design/stargazers)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 A curated list of awesome open-source tools for computational engineering, data-driven design, scriptable tools, cyber-physical design, and computational science. This repository aims to provide engineers, designers, and researchers with the best resources to enhance their computational projects.
 
