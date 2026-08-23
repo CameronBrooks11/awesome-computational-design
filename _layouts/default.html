@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ site.description | strip_newlines }}" />
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/" />
+    <style>
+      :root {
+        --accent: #008080;
+        --accent-dark: #005f5f;
+        --ink: #1f2328;
+        --muted: #59636e;
+        --rule: #d1d9e0;
+        --panel: #fff;
+        --ground: #f6f8fa;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background-color: var(--ground);
+        background-image: linear-gradient(
+            0deg, transparent 24%, rgba(0,0,0,.02) 25%, rgba(0,0,0,.02) 26%,
+            transparent 27%, transparent 74%, rgba(0,0,0,.02) 75%,
+            rgba(0,0,0,.02) 76%, transparent 77%, transparent),
+          linear-gradient(
+            90deg, transparent 24%, rgba(0,0,0,.02) 25%, rgba(0,0,0,.02) 26%,
+            transparent 27%, transparent 74%, rgba(0,0,0,.02) 75%,
+            rgba(0,0,0,.02) 76%, transparent 77%, transparent);
+        background-size: 50px 50px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .accent-bar { background: var(--accent); height: 6px; }
+
+      .container { max-width: 820px; margin: 2rem auto; padding: 0 1rem; }
+
+      main {
+        background: var(--panel);
+        padding: 2.5rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.05);
+        /* Long tool URLs must wrap rather than push the panel sideways. */
+        overflow-wrap: break-word;
+      }
+
+      h1, h2, h3, h4 {
+        color: var(--accent-dark);
+        line-height: 1.25;
+        margin: 1.8em 0 .6em;
+        font-weight: 600;
+      }
+      h1 { font-size: 2.1rem; margin-top: 0; }
+      h2 { font-size: 1.5rem; border-bottom: 1px solid var(--rule); padding-bottom: .3em; }
+      h3 { font-size: 1.2rem; }
+
+      p, ul, ol { margin: 0 0 1em; }
+      ul, ol { padding-left: 1.5em; }
+      li { margin: .25em 0; }
+      li > ul { margin: .25em 0; }
+
+      a { color: var(--accent); text-decoration: none; border-bottom: 1px dashed var(--accent); }
+      a:hover, a:focus { border-bottom-style: solid; }
+
+      /* Badge row: images should not carry link underlines. */
+      a:has(> img), a > img { border-bottom: none; }
+      img { max-width: 100%; vertical-align: middle; }
+
+      blockquote {
+        margin: 1em 0;
+        padding: .2em 1em;
+        color: var(--muted);
+        border-left: .25em solid var(--rule);
+      }
+
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: .9em;
+        background: rgba(129,139,152,.12);
+        padding: .2em .4em;
+        border-radius: 4px;
+      }
+      pre {
+        background: var(--ground);
+        border: 1px solid var(--rule);
+        border-radius: 6px;
+        padding: 1rem;
+        overflow-x: auto;
+      }
+      pre code { background: none; padding: 0; }
+
+      hr { border: 0; border-top: 1px solid var(--rule); margin: 2em 0; }
+
+      table { border-collapse: collapse; display: block; overflow-x: auto; }
+      th, td { border: 1px solid var(--rule); padding: .4em .8em; }
+
+      footer {
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: .85rem;
+        color: var(--muted);
+      }
+      footer a { color: var(--muted); border-bottom-color: var(--rule); }
+
+      @media (max-width: 600px) {
+        .container { margin: 1rem auto; }
+        main { padding: 1.25rem; }
+        h1 { font-size: 1.7rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="accent-bar"></div>
+    <div class="container">
+      <main>{{ content }}</main>
+      <footer>
+        <a href="https://github.com/CameronBrooks11/awesome-computational-design"
+          >View this list on GitHub</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
