@@ -65,6 +65,8 @@ Contributions are what make the open-source community such an amazing place to l
 
 You are welcome to fork the repository and add new tools and submit a pull request or open an issue detailing what you'd like to be added and why it fits the criteria.
 
+Planned work for the list is tracked in [TODO.md](./TODO.md).
+
 ### Local Testing
 
 From your repo root run:
