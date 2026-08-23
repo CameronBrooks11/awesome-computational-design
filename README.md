@@ -122,6 +122,21 @@ You are welcome to fork the repository and add new tools and submit a pull reque
 
 Planned work for the list is tracked in [TODO.md](./TODO.md).
 
+### Inclusion criteria
+
+An entry should meet all three:
+
+1. **An ascertainable open-source licence** — a licence file, or an explicit
+   statement in the README or documentation.
+2. **Distributed as software** — packaging, releases, or build and install
+   instructions. Not a single script published as a paper appendix.
+3. **Maintained** — meaningful activity within roughly the last two years.
+
+The second test matters most in fields that publish a new method as reference
+code alongside the paper, as topology optimization does. That code is valuable
+reading and often well cited, but it is not software anyone maintains, and star
+count does not distinguish the two.
+
 ### Local Testing
 
 From your repo root run:
