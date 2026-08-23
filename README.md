@@ -20,7 +20,8 @@ A curated list of awesome open-source tools for computational engineering, data-
   - [Simulation & multiphysics](#simulation--multiphysics)
   - [Systems & process modelling](#systems--process-modelling)
   - [Electronics & PCB design](#electronics--pcb-design)
-  - [Optimization](#optimization)
+  - [Design & topology optimization](#design--topology-optimization)
+  - [Optimization solvers & modelling](#optimization-solvers--modelling)
   - [Visualization](#visualization)
   - [Domain-specific](#domain-specific)
 - [Contributing](#contributing)
@@ -74,6 +75,7 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 
 - [Elmer FEM](https://github.com/ElmerCSC/elmerfem) — multiphysical FEM suite, strong on coupled and electromagnetic problems
 - [FEniCSx](https://github.com/FEniCS/dolfinx) — solve PDEs by writing their variational form more or less as the maths reads
+- [Kratos Multiphysics](https://github.com/KratosMultiphysics/Kratos) — FEM framework for coupled multiphysics; its OptimizationApplication does shape, thickness and topology optimization with adjoint gradients
 - [MOOSE Framework](https://github.com/idaholab/moose) — Multiphysics Object Oriented Simulation Environment, for tightly coupled multiphysics
 - [NGSolve](https://github.com/NGSolve/ngsolve) — high-performance multiphysics FEM with the Netgen mesher built in
 - [openEMS](https://github.com/thliebig/openEMS-Project) — free electromagnetic field solver using the FDTD method
@@ -95,11 +97,22 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 - [PolymorphicBlocks](https://github.com/BerkeleyHCI/PolymorphicBlocks) — hardware description language for board-level design from reusable subcircuit generators
 - [SKiDL](https://github.com/devbisme/skidl) — design electronic circuits in Python instead of a schematic editor
 
-### Optimization
+### Design & topology optimization
+
+- [beso](https://github.com/calculix/beso) — bi-directional evolutionary topology optimization on CalculiX; the practical route from a FreeCAD FEM model to an optimized part
+- [DAFoam](https://github.com/mdolab/dafoam) — adjoint framework for multidisciplinary design optimization with OpenFOAM
+- [GridapTopOpt.jl](https://github.com/zjwegert/GridapTopOpt.jl) — scalable level-set topology optimization built on Gridap
+- [OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) — NASA's framework for multidisciplinary design optimization, with analytic derivatives
+- [pyMOTO](https://github.com/aatmdelissen/pyMOTO) — modular Python framework for topology optimization, built from composable blocks
+- [TopOpt.jl](https://github.com/JuliaTopOpt/TopOpt.jl) — truss and continuum topology optimization in Julia, single and multi-material
+- [topoptlab](https://github.com/stefanhiemer/topoptlab) — modular Python framework for topology optimization research and benchmarking
+- [torch-fem](https://github.com/meyer-nils/torch-fem) — differentiable finite elements for solid mechanics on PyTorch, with topology optimization examples
+
+### Optimization solvers & modelling
 
 - [Ipopt](https://github.com/coin-or/Ipopt) — interior point optimizer for large-scale nonlinear programs
-- [OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) — NASA's framework for multidisciplinary design optimization, with analytic derivatives
 - [Pyomo](https://github.com/Pyomo/pyomo) — object-oriented algebraic modelling language in Python for structured optimization
+- [pyOptSparse](https://github.com/mdolab/pyoptsparse) — common interface to sparse nonlinear optimizers, used by DAFoam and the MACH stack
 
 ### Visualization
 
