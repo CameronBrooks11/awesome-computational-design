@@ -1,0 +1,14 @@
+version: 2
+updates:
+  # The github-pages gem pins the whole Jekyll toolchain GitHub Pages runs.
+  # Gemfile.lock is committed so a local preview matches the deployed site;
+  # a bump here is what keeps that true.
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: build
+    groups:
+      gems:
+        patterns: ["*"]
