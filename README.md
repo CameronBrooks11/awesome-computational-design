@@ -43,10 +43,14 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 - [Antimony](https://github.com/mkeeter/antimony) — node-graph CAD built on a functional representation; "CAD from a parallel universe"
 - [Build123d](https://github.com/gumyr/build123d) — Python CAD library over OCCT, with a builder and a direct algebra API
 - [CadQuery](https://github.com/CadQuery/cadquery) — Python parametric CAD scripting framework based on OCCT
+- [FreeCAD](https://github.com/FreeCAD/FreeCAD) — general-purpose parametric 3D modeller with a full Python API and workbenches per discipline
 - [JSCAD](https://github.com/jscad/OpenJSCAD.org) — modular browser and CLI tools for parametric 2D/3D design in JavaScript (previously OpenJSCAD)
 - [JupyterCAD](https://github.com/jupytercad/JupyterCAD) — JupyterLab extension for collaborative 3D geometry modelling
+- [OpenSCAD](https://github.com/openscad/openscad) — the programmers' solid 3D CAD modeller; geometry described as code rather than drawn
 - [SolidPython](https://github.com/SolidCode/SolidPython) — Python frontend for solid modelling that compiles to OpenSCAD
 - [SolidPython (jeff-dh fork)](https://github.com/jeff-dh/SolidPython) — actively maintained fork of the above, with an expanded API
+
+- [SolveSpace](https://github.com/solvespace/solvespace) — parametric 2D/3D CAD built on a geometric constraint solver
 
 ### Implicit & volumetric modelling
 
@@ -57,6 +61,8 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 ### Geometry & meshing
 
 - [Gmsh](https://gmsh.info/) — 3D finite element mesh generator with built-in pre- and post-processing ([source](https://gitlab.onelab.info/gmsh/gmsh))
+- [Manifold](https://github.com/elalish/manifold) — geometry library for topologically robust mesh Booleans, used as a CSG backend by several tools here
+- [OCCT](https://github.com/Open-Cascade-SAS/OCCT) — Open CASCADE Technology, the B-rep kernel underneath CadQuery, build123d and FreeCAD
 - [scikit-geometry](https://github.com/scikit-geometry/scikit-geometry) — scientific Python geometric algorithms library, wrapping CGAL
 
 ### Simulation & multiphysics
@@ -88,7 +94,10 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 ### Visualization & mesh analysis
 
 - [Blender Geometry Nodes](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html) — node-based procedural geometry inside Blender
+- [ParaView](https://github.com/Kitware/ParaView) — VTK-based analysis and visualization application for large simulation output
 - [PyVista](https://github.com/pyvista/pyvista) — 3D visualization and mesh analysis for science and engineering, over VTK
+
+- [VTK](https://github.com/Kitware/VTK) — the visualization and mesh processing toolkit that PyVista wraps
 
 ### Domain-specific
 
