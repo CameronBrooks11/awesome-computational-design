@@ -123,12 +123,34 @@
       referrerpolicy="no-referrer"
     ></script>
     <script>
+      // Mirror GitHub's heading-slug rules so in-page anchors from the
+      // README's table of contents resolve here too. marked does not emit
+      // heading ids of its own.
+      function slug(text) {
+        return text
+          .trim()
+          .toLowerCase()
+          .replace(/[^\w\s-]/g, "")
+          .replace(/\s/g, "-");
+      }
+
       fetch(
         "https://raw.githubusercontent.com/CameronBrooks11/awesome-computational-design/main/README.md"
       )
         .then((r) => r.text())
         .then((md) => {
-          document.getElementById("content").innerHTML = marked.parse(md);
+          const el = document.getElementById("content");
+          el.innerHTML = marked.parse(md);
+          el.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach((h) => {
+            h.id = slug(h.textContent);
+          });
+          // Honour a #fragment that arrived before the content existed.
+          if (location.hash) {
+            const target = document.getElementById(
+              decodeURIComponent(location.hash.slice(1))
+            );
+            if (target) target.scrollIntoView();
+          }
         })
         .catch((err) => {
           document.getElementById("content").innerText =
