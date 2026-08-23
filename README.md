@@ -15,6 +15,15 @@ A curated list of awesome open-source tools for computational engineering, data-
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Tools](#tools)
+    - [Parametric \& scripted CAD](#parametric--scripted-cad)
+    - [Implicit \& volumetric modelling](#implicit--volumetric-modelling)
+    - [Geometry \& meshing](#geometry--meshing)
+    - [Simulation \& multiphysics](#simulation--multiphysics)
+    - [Systems \& process modelling](#systems--process-modelling)
+    - [Electronics \& PCB design](#electronics--pcb-design)
+    - [Optimization](#optimization)
+    - [Visualization \& mesh analysis](#visualization--mesh-analysis)
+    - [Domain-specific](#domain-specific)
   - [Contributing](#contributing)
     - [Local Testing](#local-testing)
   - [Guidelines](#guidelines)
@@ -27,37 +36,64 @@ Welcome to the **Awesome Computational Design** repository! This list is intende
 
 ## Tools
 
-- [Antmicro EMC](https://github.com/antmicro/gerber2ems)
-- [animony](https://github.com/mkeeter/antimony)
-- [Blender Nodes](https://docs.blender.org/manual/en/latest/interface/controls/nodes/index.html)
-- [Build123d](https://github.com/gumyr/build123d)
-- [CadQuery](https://github.com/CadQuery/cadquery)
-- [Cantera](https://github.com/Cantera/cantera)
-- [Elmer FEM](https://github.com/ElmerCSC/elmerfem)
-- [Fenics](https://github.com/FEniCS)
-- [JupyterCAD](https://github.com/jupytercad/jupytercad)
-- [Gmsh](https://github.com/sasobadovinac/gmsh)
-- [PolymorphicBlocks](https://github.com/BerkeleyHCI/PolymorphicBlocks)
-- [Implicitcad](https://github.com/Haskell-Things/ImplicitCAD)
-- [JSCAD](https://github.com/jscad/OpenJSCAD.org)
-  - _previously known as OpenJSCAD_
-- [MOOSE Framework](https://github.com/idaholab/moose)
-- [OpenEMS](https://github.com/thliebig/openEMS-Project/)
-- [OpenFOAM](https://github.com/OpenFOAM)
-- [OpenModelica](https://github.com/OpenModelica)
-- [OpenVDB](https://github.com/AcademySoftwareFoundation/openvdb)
-- [Orlab](https://github.com/cameronBrooks11/orlab)
-- [PicoGK](https://github.com/leap71/PicoGK)
-- [Pcbflow](https://github.com/michaelgale/pcbflow)
-- [CuFlow](https://github.com/jamesbowman/cuflow)
-- [Pyomo](https://github.com/Pyomo/pyomo)
-- [PyVista](https://github.com/pyvista/pyvista)
-- [Rocketpy](https://github.com/RocketPy-Team/RocketPy)
-- [scikit-geometry](https://github.com/scikit-geometry/scikit-geometry)
-- [SfePy](https://github.com/sfepy/sfepy)
-- [SKiDL](https://github.com/devbisme/skidl)
-- [SolidPython (SolidCode)](https://github.com/SolidCode/SolidPython)
-- [SolidPython (jeff-dh fork)](https://github.com/jeff-dh/SolidPython)
+Grouped by what you reach for them to do. Entries are alphabetical within each group.
+
+### Parametric & scripted CAD
+
+- [Antimony](https://github.com/mkeeter/antimony) — node-graph CAD built on a functional representation; "CAD from a parallel universe"
+- [Build123d](https://github.com/gumyr/build123d) — Python CAD library over OCCT, with a builder and a direct algebra API
+- [CadQuery](https://github.com/CadQuery/cadquery) — Python parametric CAD scripting framework based on OCCT
+- [JSCAD](https://github.com/jscad/OpenJSCAD.org) — modular browser and CLI tools for parametric 2D/3D design in JavaScript (previously OpenJSCAD)
+- [JupyterCAD](https://github.com/jupytercad/JupyterCAD) — JupyterLab extension for collaborative 3D geometry modelling
+- [SolidPython](https://github.com/SolidCode/SolidPython) — Python frontend for solid modelling that compiles to OpenSCAD
+- [SolidPython (jeff-dh fork)](https://github.com/jeff-dh/SolidPython) — actively maintained fork of the above, with an expanded API
+
+### Implicit & volumetric modelling
+
+- [ImplicitCAD](https://github.com/Haskell-Things/ImplicitCAD) — math-inspired CAD in Haskell; CSG, bevels and shells, 2D/3D, G-code output
+- [OpenVDB](https://github.com/AcademySoftwareFoundation/openvdb) — sparse volume data structure and tools, the industry standard for level sets
+- [PicoGK](https://github.com/leap71/PicoGK) — compact geometry kernel for computational engineering, voxel/field based
+
+### Geometry & meshing
+
+- [Gmsh](https://gmsh.info/) — 3D finite element mesh generator with built-in pre- and post-processing ([source](https://gitlab.onelab.info/gmsh/gmsh))
+- [scikit-geometry](https://github.com/scikit-geometry/scikit-geometry) — scientific Python geometric algorithms library, wrapping CGAL
+
+### Simulation & multiphysics
+
+- [Elmer FEM](https://github.com/ElmerCSC/elmerfem) — multiphysical FEM suite, strong on coupled and electromagnetic problems
+- [FEniCSx](https://github.com/FEniCS/dolfinx) — solve PDEs by writing their variational form more or less as the maths reads
+- [MOOSE Framework](https://github.com/idaholab/moose) — Multiphysics Object Oriented Simulation Environment, for tightly coupled multiphysics
+- [openEMS](https://github.com/thliebig/openEMS-Project) — free electromagnetic field solver using the FDTD method
+- [OpenFOAM](https://github.com/OpenFOAM/OpenFOAM-dev) — the CFD toolbox; finite volume solvers for essentially any continuum problem
+- [SfePy](https://github.com/sfepy/sfepy) — simple finite elements in Python, for solving PDE systems
+
+### Systems & process modelling
+
+- [Cantera](https://github.com/Cantera/cantera) — chemical kinetics, thermodynamics and transport tool suite
+- [OpenModelica](https://github.com/OpenModelica/OpenModelica) — Modelica-based environment for equation-based, acausal system modelling
+
+### Electronics & PCB design
+
+- [CuFlow](https://github.com/jamesbowman/cuflow) — experimental procedural PCB layout program
+- [gerber2ems](https://github.com/antmicro/gerber2ems) — Python interface to openEMS for PCB trace simulation, taking Gerbers as input
+- [pcbflow](https://github.com/michaelgale/pcbflow) — Python PCB layout and design package, based on CuFlow
+- [PolymorphicBlocks](https://github.com/BerkeleyHCI/PolymorphicBlocks) — hardware description language for board-level design from reusable subcircuit generators
+- [SKiDL](https://github.com/devbisme/skidl) — design electronic circuits in Python instead of a schematic editor
+
+### Optimization
+
+- [Pyomo](https://github.com/Pyomo/pyomo) — object-oriented algebraic modelling language in Python for structured optimization
+
+### Visualization & mesh analysis
+
+- [Blender Geometry Nodes](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html) — node-based procedural geometry inside Blender
+- [PyVista](https://github.com/pyvista/pyvista) — 3D visualization and mesh analysis for science and engineering, over VTK
+
+### Domain-specific
+
+- [orlab](https://github.com/CameronBrooks11/orlab) — Python module for scripting OpenRocket, for simulation and computational workflows
+- [RocketPy](https://github.com/RocketPy-Team/RocketPy) — 6-DOF trajectory simulation for high-power rocketry
 
 ## Contributing
 
