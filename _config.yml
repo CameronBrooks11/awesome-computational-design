@@ -1,0 +1,21 @@
+title: Awesome Computational Design
+description: >-
+  A curated list of awesome open-source tools for computational engineering,
+  data-driven design, scriptable tools, cyber-physical design, and
+  computational science.
+url: https://cameronbrooks11.github.io
+baseurl: /awesome-computational-design
+
+# README.md has no front matter, so give it a layout here rather than
+# adding YAML to a file GitHub also renders on the repository page.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# kramdown generates heading ids, which is what the table of contents
+# links depend on.
+markdown: kramdown
+kramdown:
+  auto_ids: true
