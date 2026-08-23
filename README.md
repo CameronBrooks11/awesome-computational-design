@@ -11,24 +11,21 @@ A curated list of awesome open-source tools for computational engineering, data-
 
 ## Table of Contents
 
-- [Awesome Computational Design](#awesome-computational-design)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Tools](#tools)
-    - [Parametric \& scripted CAD](#parametric--scripted-cad)
-    - [Implicit \& volumetric modelling](#implicit--volumetric-modelling)
-    - [Geometry \& meshing](#geometry--meshing)
-    - [Simulation \& multiphysics](#simulation--multiphysics)
-    - [Systems \& process modelling](#systems--process-modelling)
-    - [Electronics \& PCB design](#electronics--pcb-design)
-    - [Optimization](#optimization)
-    - [Visualization \& mesh analysis](#visualization--mesh-analysis)
-    - [Domain-specific](#domain-specific)
-  - [Contributing](#contributing)
-    - [Local Testing](#local-testing)
-  - [Guidelines](#guidelines)
-  - [License](#license)
-  - [Acknowledgements](#acknowledgements)
+- [Introduction](#introduction)
+- [Tools](#tools)
+  - [Parametric \& scripted CAD](#parametric--scripted-cad)
+  - [Implicit \& volumetric modelling](#implicit--volumetric-modelling)
+  - [Geometry \& meshing](#geometry--meshing)
+  - [Simulation \& multiphysics](#simulation--multiphysics)
+  - [Systems \& process modelling](#systems--process-modelling)
+  - [Electronics \& PCB design](#electronics--pcb-design)
+  - [Optimization](#optimization)
+  - [Visualization \& mesh analysis](#visualization--mesh-analysis)
+  - [Domain-specific](#domain-specific)
+- [Contributing](#contributing)
+- [Guidelines](#guidelines)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -49,7 +46,6 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 - [OpenSCAD](https://github.com/openscad/openscad) — the programmers' solid 3D CAD modeller; geometry described as code rather than drawn
 - [SolidPython](https://github.com/SolidCode/SolidPython) — Python frontend for solid modelling that compiles to OpenSCAD
 - [SolidPython (jeff-dh fork)](https://github.com/jeff-dh/SolidPython) — actively maintained fork of the above, with an expanded API
-
 - [SolveSpace](https://github.com/solvespace/solvespace) — parametric 2D/3D CAD built on a geometric constraint solver
 
 ### Implicit & volumetric modelling
@@ -96,7 +92,6 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 - [Blender Geometry Nodes](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html) — node-based procedural geometry inside Blender
 - [ParaView](https://github.com/Kitware/ParaView) — VTK-based analysis and visualization application for large simulation output
 - [PyVista](https://github.com/pyvista/pyvista) — 3D visualization and mesh analysis for science and engineering, over VTK
-
 - [VTK](https://github.com/Kitware/VTK) — the visualization and mesh processing toolkit that PyVista wraps
 
 ### Domain-specific
@@ -124,9 +119,9 @@ Then open http://localhost:8000 in your browser.
 
 ## Guidelines
 
-Be Respectful: Maintain a respectful and collaborative tone in all interactions.
-Be Clear: Ensure that your contributions are well-documented and clearly explained.
-Be Consistent: Follow the existing formatting and organizational structure.
+- **Be respectful** — maintain a respectful and collaborative tone in all interactions.
+- **Be clear** — ensure that your contributions are well-documented and clearly explained.
+- **Be consistent** — follow the existing formatting and organizational structure.
 
 ## License
 
@@ -134,5 +129,6 @@ Distributed under the AGPL v3 License. See [LICENSE](./LICENSE) for more informa
 
 ## Acknowledgements
 
-Inspired by [Awesome Lists](https://github.com/topics/awesome-lists) ([awesome](https://github.com/sindresorhus/awesome))
+Inspired by [Awesome Lists](https://github.com/topics/awesome-lists) and [awesome](https://github.com/sindresorhus/awesome).
+
 Thanks to all the open-source contributors and communities that make these tools possible.
