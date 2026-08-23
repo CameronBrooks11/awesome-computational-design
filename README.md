@@ -15,12 +15,13 @@ A curated list of awesome open-source tools for computational engineering, data-
 - [Tools](#tools)
   - [Parametric & scripted CAD](#parametric--scripted-cad)
   - [Implicit & volumetric modelling](#implicit--volumetric-modelling)
-  - [Geometry & meshing](#geometry--meshing)
+  - [Geometry kernels & libraries](#geometry-kernels--libraries)
+  - [Meshing & mesh processing](#meshing--mesh-processing)
   - [Simulation & multiphysics](#simulation--multiphysics)
   - [Systems & process modelling](#systems--process-modelling)
   - [Electronics & PCB design](#electronics--pcb-design)
   - [Optimization](#optimization)
-  - [Visualization & mesh analysis](#visualization--mesh-analysis)
+  - [Visualization](#visualization)
   - [Domain-specific](#domain-specific)
 - [Contributing](#contributing)
 - [Guidelines](#guidelines)
@@ -54,21 +55,32 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 - [OpenVDB](https://github.com/AcademySoftwareFoundation/openvdb) — sparse volume data structure and tools, the industry standard for level sets
 - [PicoGK](https://github.com/leap71/PicoGK) — compact geometry kernel for computational engineering, voxel/field based
 
-### Geometry & meshing
+### Geometry kernels & libraries
 
-- [Gmsh](https://gmsh.info/) — 3D finite element mesh generator with built-in pre- and post-processing ([source](https://gitlab.onelab.info/gmsh/gmsh))
+- [CGAL](https://github.com/CGAL/cgal) — computational geometry algorithms library, the C++ substrate under much of this list
+- [libigl](https://github.com/libigl/libigl) — header-only C++ geometry processing library, with Python bindings
 - [Manifold](https://github.com/elalish/manifold) — geometry library for topologically robust mesh Booleans, used as a CSG backend by several tools here
 - [OCCT](https://github.com/Open-Cascade-SAS/OCCT) — Open CASCADE Technology, the B-rep kernel underneath CadQuery, build123d and FreeCAD
+- [pythonocc-core](https://github.com/tpaviot/pythonocc-core) — Python bindings to OCCT, for scripting CAD, BIM and CAM geometry
 - [scikit-geometry](https://github.com/scikit-geometry/scikit-geometry) — scientific Python geometric algorithms library, wrapping CGAL
+
+### Meshing & mesh processing
+
+- [Gmsh](https://gmsh.info/) — 3D finite element mesh generator with built-in pre- and post-processing ([source](https://gitlab.onelab.info/gmsh/gmsh))
+- [MeshLab](https://github.com/cnr-isti-vclab/meshlab) — mesh processing system for cleaning, repairing and simplifying, scriptable through PyMeshLab
+- [trimesh](https://github.com/mikedh/trimesh) — Python library for loading and operating on triangular meshes
 
 ### Simulation & multiphysics
 
 - [Elmer FEM](https://github.com/ElmerCSC/elmerfem) — multiphysical FEM suite, strong on coupled and electromagnetic problems
 - [FEniCSx](https://github.com/FEniCS/dolfinx) — solve PDEs by writing their variational form more or less as the maths reads
 - [MOOSE Framework](https://github.com/idaholab/moose) — Multiphysics Object Oriented Simulation Environment, for tightly coupled multiphysics
+- [NGSolve](https://github.com/NGSolve/ngsolve) — high-performance multiphysics FEM with the Netgen mesher built in
 - [openEMS](https://github.com/thliebig/openEMS-Project) — free electromagnetic field solver using the FDTD method
 - [OpenFOAM](https://github.com/OpenFOAM/OpenFOAM-dev) — the CFD toolbox; finite volume solvers for essentially any continuum problem
+- [preCICE](https://github.com/precice/precice) — coupling library that joins independently written solvers into one partitioned multiphysics simulation
 - [SfePy](https://github.com/sfepy/sfepy) — simple finite elements in Python, for solving PDE systems
+- [SU2](https://github.com/su2code/SU2) — CFD and multiphysics suite built around adjoint-based shape optimization
 
 ### Systems & process modelling
 
@@ -85,12 +97,15 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 
 ### Optimization
 
+- [Ipopt](https://github.com/coin-or/Ipopt) — interior point optimizer for large-scale nonlinear programs
+- [OpenMDAO](https://github.com/OpenMDAO/OpenMDAO) — NASA's framework for multidisciplinary design optimization, with analytic derivatives
 - [Pyomo](https://github.com/Pyomo/pyomo) — object-oriented algebraic modelling language in Python for structured optimization
 
-### Visualization & mesh analysis
+### Visualization
 
 - [Blender Geometry Nodes](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html) — node-based procedural geometry inside Blender
 - [ParaView](https://github.com/Kitware/ParaView) — VTK-based analysis and visualization application for large simulation output
+- [Polyscope](https://github.com/nmwsharp/polyscope) — C++/Python viewer for meshes and point clouds, for looking at geometry mid-algorithm
 - [PyVista](https://github.com/pyvista/pyvista) — 3D visualization and mesh analysis for science and engineering, over VTK
 - [VTK](https://github.com/Kitware/VTK) — the visualization and mesh processing toolkit that PyVista wraps
 
