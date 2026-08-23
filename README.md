@@ -26,6 +26,7 @@ A curated list of awesome open-source tools for computational engineering, data-
   - [Domain-specific](#domain-specific)
 - [Contributing](#contributing)
 - [Guidelines](#guidelines)
+- [Roadmap](#roadmap)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -133,7 +134,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 You are welcome to fork the repository and add new tools and submit a pull request or open an issue detailing what you'd like to be added and why it fits the criteria.
 
-Planned work for the list is tracked in [TODO.md](./TODO.md).
+Planned work for the list is in [Roadmap](#roadmap).
 
 ### Inclusion criteria
 
@@ -180,6 +181,19 @@ github.com does not render this README with Jekyll.
 - **Be respectful** — maintain a respectful and collaborative tone in all interactions.
 - **Be clear** — ensure that your contributions are well-documented and clearly explained.
 - **Be consistent** — follow the existing formatting and organizational structure.
+
+## Roadmap
+
+- **A list of tutorials** — how to use the tools here to actually do computational design.
+- **Example workflows** — how to combine several of them into an integrated pipeline.
+
+These are one piece of work rather than two: an example workflow is a tutorial
+with the prose removed. They are also broader than this list's scope. Cataloguing
+tools is a different job from teaching people to chain them together, which means
+working files, versions that agree with each other, and output to regenerate
+whenever any of them changes.
+
+That belongs in its own repository, which will be linked here once it exists.
 
 ## License
 
