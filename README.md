@@ -150,15 +150,30 @@ code alongside the paper, as topology optimization does. That code is valuable
 reading and often well cited, but it is not software anyone maintains, and star
 count does not distinguish the two.
 
-### Local Testing
+### Local preview
 
-From your repo root run:
+GitHub Pages builds this site with Jekyll. Previewing it locally uses the same
+toolchain, so what you see matches what gets published.
+
+Once per clone:
 
 ```bash
-python3 -m http.server 8000
+bundle config set --local path vendor/bundle
+bundle install
 ```
 
-Then open http://localhost:8000 in your browser.
+Then:
+
+```bash
+bundle exec jekyll serve
+```
+
+and open <http://127.0.0.1:4000/awesome-computational-design/>. The path matters —
+`baseurl` in `_config.yml` puts the site under it, and the server root is a 404.
+
+This is worth doing before opening a pull request. A Markdown or config change
+can render correctly on github.com and still break once deployed, because
+github.com does not render this README with Jekyll.
 
 ## Guidelines
 
