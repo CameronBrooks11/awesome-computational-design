@@ -88,6 +88,7 @@ Grouped by what you reach for them to do. Entries are alphabetical within each g
 ### Systems & process modelling
 
 - [Cantera](https://github.com/Cantera/cantera) — chemical kinetics, thermodynamics and transport tool suite
+- [OpenFLUME](https://github.com/OpenFLUME/OpenFLUME) — finite-volume thermo-fluid network solver in the GFSSP / SINDA-FLUINT class, steady and transient, scriptable from Python
 - [OpenModelica](https://github.com/OpenModelica/OpenModelica) — Modelica-based environment for equation-based, acausal system modelling
 
 ### Electronics & PCB design
